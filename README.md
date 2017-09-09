@@ -72,6 +72,7 @@ Create a new repository first by clicking on the plus sign on the upper right ha
 <img src="https://i.imgur.com/ThwdbQY.png"/>
 
 Name this repository yourusername.github.io and initialize it with a README (that's what you're reading right now). Github pages is a nifty little tool that github gives each user to host a static page (static meaning that it doesn't have things like a php engine for per say sending emails or otherwise anything that interacts with a database). 
+<img src="https://i.imgur.com/FeypG2U.png"/>
 
 By naming this repository username.github.io you are making this repository your gh pages site. You can add other projects on top of this later as well. 
 
@@ -80,11 +81,13 @@ username.github.io will automatically look for in its root (the very first direc
 
 ### Clone this new repository into your deskop
 Okay this is pretty simple. Copy the url github provides you with in the repository. 
+<img src="https://i.imgur.com/NZROsFs.png"/>
 
 Go to command line/terminal. You should be in the desktop directory still. Put in git clone and then paste in the url.
 ```
 git clone https://github.com/handsomericestudent/handsomericestudent.github.io.git
 ```
+<img src="https://i.imgur.com/EL9ZEbX.png"/>
 
 Alright now if you check your desktop you should now have a folder named "username.github.io".
 
