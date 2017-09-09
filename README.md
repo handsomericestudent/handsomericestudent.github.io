@@ -16,17 +16,17 @@ Download here https://www.sublimetext.com/3
 For mac users access terminal by command + space opens up a search bar --> type in terminal and open it. This defaults to the your user I believe. 
 
 For the sake of clarity we will be working in the Desktop directory. Put the following line in terminal and press enter.
-'''
+```
 cd Desktop
-'''
+```
 
 ### Windows Users
 For windows users you can access command line by right clicking your desktop while holding down shift. There should be an option to "Open command line here". If that option doesn't appear you can also look for "Command Prompt" in your search bar on the bottom left corner of your screen.
 
 If you had to search to find it for the sake of clarity we will be working in the Desktop directory put the following and press enter in command line.
-'''
+```
 cd Desktop
-'''
+```
 
 ### Fundamental Commands to keep in mind
 
@@ -36,32 +36,32 @@ A directory is essentially what you think of as a folder. It contains things. We
 Enter in ls (mac) or dir (windows) if you want to see a list of the different directories/files within your current directory.
 
 This command takes you into a directory you specify. 
-'''
+```
 cd directoryname
-'''
+```
 
 Go back out of the current directory
-'''
+```
 cd .. 
-'''
+```
 
 ####### Git commands
 *** If you do not have git set up with your user correctly when you try to push you will likely get rejected
 
 Add everything in that directory
-'''
+```
 git add . 
-'''
+```
 
 Commit the changes you made 
-'''
+```
 git commit -m "your message here"
-'''
+```
 
 Push your code to the branch you are working in
-'''
+```
 git push 
-'''
+```
 # Github 
 Create a new github account (you can link this to your student email later to get thousands of dollars worth of free developer tools/software). 
 
@@ -82,9 +82,9 @@ username.github.io will automatically look for in its root (the very first direc
 Okay this is pretty simple. Copy the url github provides you with in the repository. 
 
 Go to command line/terminal. You should be in the desktop directory still. Put in git clone and then paste in the url.
-'''
+```
 git clone https://github.com/handsomericestudent/handsomericestudent.github.io.git
-'''
+```
 
 Alright now if you check your desktop you should now have a folder named "username.github.io".
 
@@ -93,23 +93,23 @@ For now let's do something really simple. Open up your sublime text editor and c
 
 Now open up that index.html file into your text editor.
 
-Let's try something really simple. 
-'''html
-<h1>Hello World!!!</h1>
-'''
+Let's try something really simple. Write in 
+```html
+<h1>Hellow World</h1>
+```
 
 Now let's use those commands we learned earlier. Navigate to the directory that should be username.github.io on your desktop using command line or terminal.
 
-'''
+```
 git add .
-'''
+```
 
-'''
+```
 git commit -m "Added index.html file"
-'''
+```
 
-'''
+```
 git push
-'''
+```
 
 Now go into your browser and go to username.github.io. Congrats you've just made and deployed your first website!
