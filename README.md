@@ -68,8 +68,8 @@ Create a new github account (you can link this to your student email later to ge
 ### Create a new repository
 FYI. A repository is kind of like a place to store your code so multiple people can work with it. we won't go too in depth on this topic but github repositories enable us to have version control. This is VERY important and learning how to work with it is a must for working with multiple developers.
 
-
 Create a new repository first by clicking on the plus sign on the upper right hand corner of your screen.
+<img src="https://i.imgur.com/ThwdbQY.png"/>
 
 Name this repository yourusername.github.io and initialize it with a README (that's what you're reading right now). Github pages is a nifty little tool that github gives each user to host a static page (static meaning that it doesn't have things like a php engine for per say sending emails or otherwise anything that interacts with a database). 
 
