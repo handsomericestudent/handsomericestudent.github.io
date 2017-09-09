@@ -45,7 +45,7 @@ Go back out of the current directory
 cd .. 
 ```
 
-####### Git commands
+###### Git commands
 *** If you do not have git set up with your user correctly when you try to push you will likely get rejected
 
 Add everything in that directory
@@ -95,7 +95,7 @@ Now open up that index.html file into your text editor.
 
 Let's try something really simple. Write in 
 ```html
-<h1>Hellow World</h1>
+<h1>Hello World!!!</h1>
 ```
 
 Now let's use those commands we learned earlier. Navigate to the directory that should be username.github.io on your desktop using command line or terminal.
