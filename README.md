@@ -3,7 +3,20 @@ Throwaway website for Pre Hack Rice Workshop!
 
 # You need to have set up
 ### Git 
-Shashank please have your instructions here 
+Download and install the lastest version of git here: https://git-scm.com/downloads
+
+Mac Users should have access to git already, type the below command to check the version of git
+```
+git version
+```
+The latest version is 2.14.1, but older versions should also work fine
+
+You can set a name and email associated with commits using the following commands if you'd like, but  this is optional since github should do this automatically
+
+```
+git config --global user.name "Your Name"
+git config --global user.email your@email.com
+```
 
 ### Text Editor
 We'll be using sublime 3 which some can argue to be deprecated but we still like it :)
@@ -21,7 +34,7 @@ cd Desktop
 ```
 
 ### Windows Users
-For windows users you can access command line by right clicking your desktop while holding down shift. There should be an option to "Open command line here". If that option doesn't appear you can also look for "Command Prompt" in your search bar on the bottom left corner of your screen.
+For windows users you can access command line by typing cmd into your search bar. If this doesn't work, you can also access the command prompt by right clicking your desktop while holding down shift. There should be an option to "Open command line here". If that option doesn't appear you can also look for "Command Prompt" in your search bar on the bottom left corner of your screen.
 
 If you had to search to find it for the sake of clarity we will be working in the Desktop directory put the following and press enter in command line.
 ```
@@ -52,11 +65,13 @@ Add everything in that directory
 ```
 git add . 
 ```
+*** git add . will add all changes you make in a particular commit. To just add one file, you can specify the file name, with something like git add "myfilename.py"
 
 Commit the changes you made 
 ```
 git commit -m "your message here"
 ```
+*** Remember to always make useful commit messages, for both yourself and others
 
 Push your code to the branch you are working in
 ```
