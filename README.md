@@ -158,7 +158,7 @@ Copy the url Github provides you with in the repository.
 Go to your command line, and make sure you are in the `workshops` directory we created earlier. Type the following command.
 
 ```
-git clone https://github.com/achalvs/websiteworkshop.github.io.git
+git clone https://github.com/handsomericestudent/handsomericestudent.github.io.git
 ```
 <img src="https://i.imgur.com/EL9ZEbX.png"/>
 
